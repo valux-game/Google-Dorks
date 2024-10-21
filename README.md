@@ -1,5 +1,5 @@
 > [!NOTE]
-> Google Hacking/Dorking Is Not illegal!
+> Google Hacking/Dorking Is Not illegal! (Unless Its Used In The Wrong Way!)
 
 # Google Dorks
 **These Google Dork Are Commonly Know**
