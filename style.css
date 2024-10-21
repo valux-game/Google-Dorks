@@ -1,14 +1,52 @@
-body {
-    background-color: black;
-    color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+h1 {
+    font-size: 300%;
+    color: rgb(0, 17, 255);
+    text-align: center
 }
 
-h1 {
-    text-align: center;
+h2 {
+    font-size: 200%;
+    color: blueviolet;
+    text-align: center
 }
+
+a:hover {
+    color: rgb(9, 255, 0);
+}
+
+a {
+    font-size: 200%;
+}
+
+img {
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+body {
+    -webkit-animation: colorchange 10s infinite; 
+    animation: colorchange 10s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #9B59B6;}
+    25%  {background: #78281F;}
+    50%  {background: #639b43;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #9B59B6;}
+    25%  {background: #78281F;}
+    50%  {background: #639b43;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
