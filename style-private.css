@@ -1,0 +1,45 @@
+h1 {
+    font-size: 300%;
+    color: blue;
+}
+
+img {
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+a:hover {
+    color: rgb(9, 255, 0);
+}
+
+a {
+    font-size: 200%;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+body {
+    -webkit-animation: colorchange 10s infinite; 
+    animation: colorchange 10s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #9B59B6;}
+    25%  {background: #78281F;}
+    50%  {background: #639b43;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #9B59B6;}
+    25%  {background: #78281F;}
+    50%  {background: #639b43;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
